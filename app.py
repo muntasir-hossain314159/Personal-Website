@@ -27,16 +27,16 @@ navbar = dbc.Navbar(
                             className="ms-auto",
                             children=[
                                 dbc.NavItem(
-                                    dbc.NavLink("Projects", href="/projects")
+                                    dbc.NavLink("Projects", href="/projects", id={"type":"link-navbar", "index": "/projects"})
                                 ),
                                 dbc.NavItem(
-                                    dbc.NavLink("Publications", href="/publications")
+                                    dbc.NavLink("Publications", href="/publications", id={"type":"link-navbar", "index": "/publications"})
                                 ),
                                 dbc.NavItem(
-                                    dbc.NavLink("Awards", href="/awards")
+                                    dbc.NavLink("Awards", href="/awards", id={"type":"link-navbar", "index": "/awards"})
                                 ),
                                 dbc.NavItem(
-                                    dbc.NavLink("Resume", href="/results")
+                                    dbc.NavLink("Resume", href="/resume", id={"type":"link-navbar", "index": "/resume"})
                                 ),
                             ],
                         ),

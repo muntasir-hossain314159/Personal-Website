@@ -7,9 +7,9 @@ dash.register_page(__name__, "/", title="Meet Me")
 # Job Experience 1
 job1_date = "June 2023 - Present"
 job1_description = [
-    "Led and executed an initiative to implement a failover mechanism in stores, ensuring uninterrupted functionality",
-    "Developed a utility application in .NET (C#) to streamline local testing of the POS, resulting in a reduced development time of 20%",
-    "Refactored and documented legacy code in C/C++ to improve maintainability, robustness, and scalability",
+    "Implemented a failover mechanism for crucial plugins running in stores, reducing customer wait time by 12%",
+    "Developed a utility application in .NET to streamline local testing of the POS, reducing development time by 20%",
+    "Refactored legacy code in C/C++ to improve maintainability, robustness, and scalability",
     "Created clear, concise, and complete documentation for 3 initiatives",
     "Led 20+ Agile ceremonies, including daily standup, sprint planning, retrospectives, and backlog refinement"
 ]
@@ -71,7 +71,7 @@ layout = dbc.Container([
             ])
         ], lg={'size': 6}, align="center", className="mb-4"),
         dbc.Col(
-            html.Img(src="./assets/profile.PNG", height="300px", style={"border-radius": "25px"}),
+            html.Img(src="./assets/images/profile.PNG", height="300px", style={"border-radius": "25px"}),
             lg={'size': 6},
             className="d-flex justify-content-center"),
     ], className='mt-5'),
@@ -89,8 +89,8 @@ layout = dbc.Container([
             html.P("During my time in college and industry, I developed a deep understanding of programming languages and software development methodologies:", style={"color": "white"}),
             html.Ul([
                 html.Li(html.Div([html.B("Skills: "), "Software Development, QE Testing, Performance Profile Analysis, Agile Methodologies, Mobile Application Development, Web Development, RESTful API Design, Database Management Systems, Machine Learning, Data Analysis, Scientific Research, Communication, Project Management"], style={"color": "white"})),
-                html.Li(html.Div([html.B("Programming Languages/Library: "), "C, C++, C#, .NET Core, Java, Python, SQL, HTML, CSS, JavaScript, Swift"], style={"color": "white"})),
-                html.Li(html.Div([html.B("Software/Framework: "), "Git, ReSharper, EJS, Bootstrap, jQuery, Express, Node.js, MongoDB, Microsoft Azure, Docker"], style={"color": "white"})),
+                html.Li(html.Div([html.B("Programming Languages/Library: "), "C, C++, C#, Java, Python, HTML, CSS, JavaScript, TypeScript, SQL"], style={"color": "white"})),
+                html.Li(html.Div([html.B("Software/Framework: "), "Git, ReSharper, React, Next.js, EJS, Bootstrap, jQuery, Express, Node.js, MongoDB, Docker, Microsoft Azure"], style={"color": "white"})),
             ])],
             lg={'size': 6}
         )
@@ -117,5 +117,5 @@ layout = dbc.Container([
                 html.Ul([html.Li(html.Div(desc, style={"color": "white"})) for desc in job4_description])
             ], className='experience-section')
         ], lg={'size': 6})
-    ])
+    ], className="mb-5")
 ])

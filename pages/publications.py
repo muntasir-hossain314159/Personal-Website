@@ -34,7 +34,7 @@ rp4_desc = ['Published in 2021 IEEE Frontiers in Education Conference (FIE)',
             'Implemented the qualitative data analysis technique of thematic coding to determine common themes in written free-response answers']
 
 layout = dbc.Container([
-    dbc.Row(html.H2('Poster Presentation & Publications'), className='mt-4 mb-4 text-center'),
+    dbc.Row(html.H1('Poster Presentation & Publications'), className='mt-4 mb-4 text-center'),
     dbc.Row([
         html.Div([
             html.A(
@@ -91,5 +91,5 @@ layout = dbc.Container([
                 html.A(desc, href="https://ieeexplore.ieee.org/document/9637230", style={"color": "white"}) if i == 0
                 else desc, style={"color": "white"})) for i, desc in enumerate(rp4_desc)]),
             ], className='experience-section')
-    ])
+    ], className="mb-4")
 ])
