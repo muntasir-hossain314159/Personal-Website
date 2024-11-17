@@ -7,21 +7,21 @@ dash.register_page(__name__, "/", title="Meet Me")
 # Job Experience 1
 job1_date = "June 2023 - Present"
 job1_description = [
+    "Created a plugin in .NET to asynchronously log all transactions and data which resulted in a reduced latency of 25% compared to the legacy monolithic component",
+    "Developed a utility application in .NET to streamline local testing of the Point-of-Sale (POS), contributing to process improvement and reducing development time by 20%",
     "Implemented a failover mechanism for crucial plugins running in stores, reducing customer wait time by 12%",
-    "Developed a utility application in .NET to streamline local testing of the POS, reducing development time by 20%",
-    "Refactored legacy code in C/C++ to improve maintainability, robustness, and scalability",
-    "Created clear, concise, and complete documentation for 3 initiatives",
-    "Led 20+ Agile ceremonies, including daily standup, sprint planning, retrospectives, and backlog refinement"
+    "Refactored and increased code coverage in legacy C/C++ code by 35%, enhancing maintainability and robustness",
+    "Served as a mentor for 3 new incoming engineers"
 ]
 
 # Job Experience 2
 job2_date = "Jun 2022 - Aug 2022"
 job2_description = [
+    "Refactored and optimized source code, achieving a 15.2% decrease in POS startup time, directly enhancing crew experience and operational efficiency"
+    "Documented a detailed function map encompassing all startup calls, streamlining future debugging and feature development, and reducing onboarding time for new developers by 40%"
+    "Utilized ReSharper dotTrace to profile and analyze the POS startup process, identifying and resolving critical bottlenecks"
     "Worked in an Agile environment with a team of 5 software engineers on the Point-of-Sale (POS)",
-    "Wrote test scripts as part of Test-Driven Development using OpenTest",
-    "Profiled the POS Startup process using ReSharper dotTrace to identify bottlenecks",
-    "Documented and created a function map detailing all the functions being called during startup",
-    "Optimized the source code and reduced startup time by 15.2%"
+    "Wrote test scripts as part of Test-Driven Development using OpenTest"
 ]
 
 # Job Experience 3
@@ -50,7 +50,7 @@ layout = dbc.Container([
                 html.Li(
                     html.A(
                         "Email",
-                        href="mailto:ahoss1@unh.newhaven.edu",
+                        href="mailto:muntasir.hoss@gmail.com",
                         style={"color": "white", "font-size": "large"}
                     ),
                 ),
@@ -79,7 +79,7 @@ layout = dbc.Container([
         dbc.Col([
             html.H2('About Me'),
             html.Div([
-                html.P("I am currently working as a Software Development Engineer at McDonald's Corporate under the POS team. My passion for technology and problem-solving led me to pursue a major in Computer Science and a minor in Mathematics at the University of New Haven, where I graduated with a Bachelor's degree in May 2023.", style={"color": "white"}),
+                html.P("I am currently working as a Software Development Engineer at McDonald's Corporate under the Point-of-Sale (POS) team. My passion for technology and problem-solving led me to pursue a major in Computer Science and a minor in Mathematics at the University of New Haven, where I graduated with a Bachelor's degree in May 2023.", style={"color": "white"}),
                 html.P("Working in such an exciting and fast-paced environment has allowed me to enhance my skills and knowledge, and I'm excited to continue exploring new opportunities and challenges in the field of technology. In my free time, I enjoy reading about the latest advancements in technology, as well as hiking and exploring the outdoors.", style={"color": "white"}),
             ])],
             lg={'size': 6}
@@ -88,9 +88,9 @@ layout = dbc.Container([
             html.H2('Summary of Qualifications'),
             html.P("During my time in college and industry, I developed a deep understanding of programming languages and software development methodologies:", style={"color": "white"}),
             html.Ul([
-                html.Li(html.Div([html.B("Skills: "), "Software Development, QE Testing, Performance Profile Analysis, Agile Methodologies, Mobile Application Development, Web Development, RESTful API Design, Database Management Systems, Machine Learning, Data Analysis, Scientific Research, Communication, Project Management"], style={"color": "white"})),
-                html.Li(html.Div([html.B("Programming Languages/Library: "), "C, C++, C#, Java, Python, HTML, CSS, JavaScript, TypeScript, SQL"], style={"color": "white"})),
-                html.Li(html.Div([html.B("Software/Framework: "), "Git, ReSharper, React, Next.js, EJS, Bootstrap, jQuery, Express, Node.js, MongoDB, Docker, Microsoft Azure"], style={"color": "white"})),
+                html.Li(html.Div([html.B("Skills: "), "Software Development, Web Development, RESTful API Design, Database Management Systems, Machine Learning, Data Analysis, Performance Profile Analysis, Scientific Research, Communication, Agile Methodologies, Project Management"], style={"color": "white"})),
+                html.Li(html.Div([html.B("Programming Languages/Library: "), "C, C++, C#, Python, React, HTML, CSS, JavaScript, TypeScript, SQL"], style={"color": "white"})),
+                html.Li(html.Div([html.B("Software/Framework: "), ".NET, Next.js, Supabase, MongoDB, Docker, Microsoft Azure, AWS, Git, ReSharper dotTrace, EJS, Bootstrap, jQuery, Express, Node.js"], style={"color": "white"})),
             ])],
             lg={'size': 6}
         )
