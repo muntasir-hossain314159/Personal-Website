@@ -67,7 +67,7 @@ layout = dbc.Container([
         html.H2("WordCord", style={"margin-bottom": "30px", "text-align": "center"}),
         html.Img(src="./assets/images/WordCord_UI.JPG", style={"width": "40%", "margin-bottom": "20px"}),
         dbc.Col([
-            html.Img(src="./assets/images/Discord_bot.JPG", style={"width": "100%", "height": "40%", "padding-bottom": "20px"}),
+            html.Img(src="./assets/images/Discord_Bot.JPG", style={"width": "100%", "height": "40%", "padding-bottom": "20px"}),
             html.Img(src="./assets/images/WordCord_Database.JPG", style={"width": "100%", "height": "60%"}),
         ], className="mb-4"),
         
