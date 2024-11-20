@@ -17,9 +17,9 @@ job1_description = [
 # Job Experience 2
 job2_date = "Jun 2022 - Aug 2022"
 job2_description = [
-    "Refactored and optimized source code, achieving a 15.2% decrease in POS startup time, directly enhancing crew experience and operational efficiency"
-    "Documented a detailed function map encompassing all startup calls, streamlining future debugging and feature development, and reducing onboarding time for new developers by 40%"
-    "Utilized ReSharper dotTrace to profile and analyze the POS startup process, identifying and resolving critical bottlenecks"
+    "Refactored and optimized source code, achieving a 15.2% decrease in POS startup time, directly enhancing crew experience and operational efficiency",
+    "Documented a detailed function map encompassing all startup calls, streamlining future debugging and feature development, and reducing onboarding time for new developers by 40%",
+    "Utilized ReSharper dotTrace to profile and analyze the POS startup process, identifying and resolving critical bottlenecks",
     "Worked in an Agile environment with a team of 5 software engineers on the Point-of-Sale (POS)",
     "Wrote test scripts as part of Test-Driven Development using OpenTest"
 ]
