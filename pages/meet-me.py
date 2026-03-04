@@ -47,7 +47,7 @@ job5_description = [
     "Led backend architecture for a multi-store device management platform, enabling concurrent configuration updates across thousands of stores and reducing market-level workflows from hours to minutes.",
     "Designed and developed an event-driven backend using RabbitMQ, applying idempotent consumers and retry/backoff strategies to orchestrate asynchronous workflows across multiple microservices with 99.9% processing reliability.",
     "Implemented parallel execution to process dozens of stores simultaneously, reducing end-to-end latency by 70–85% compared to the prior sequential workflow.",
-    "Re-architected a core backend feature, reducing execution time from ~24 hours with heavy IT support to under 2 hours with zero IT involvement.",
+    "Re-architected a core backend feature, reducing execution time from ~3 hours with heavy IT support to under 2 minutes with zero IT involvement.",
     "Performed deep production incident triage and root-cause analysis across AWS-hosted microservices, using Kubernetes CPU and memory metrics to identify over-provisioned pods and right-size resource requests, improving service stability and overall cluster efficiency.",
     "Collaborated with cross-functional engineering teams to align backend designs, rollout strategies, and operational requirements across dependent services.",
     "Mentored two junior engineers, providing guidance on backend architecture, concurrency, and production-ready coding practices.",
