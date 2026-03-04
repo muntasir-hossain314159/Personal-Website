@@ -93,9 +93,9 @@ layout = dbc.Container([
         html.H2('Summary of Qualifications'),
         html.Div(html.Ul([
             html.Li(html.Div([html.B("Backend & Systems: "), ".NET, RESTful APIs, Microservices, Distributed Systems, Asynchronous Processing, Event-Driven Architecture, Messaging Systems"], style={"color": "white"})),
-            html.Li(html.Div([html.B("Programming Languages & Framework: "), "C#, Python, TypeScript, JavaScript, SQL, C++, React, Next.js, Node.js."], style={"color": "white"})),
+            html.Li(html.Div([html.B("Programming Languages & Framework: "), "C#, Python, Go, TypeScript, JavaScript, SQL, Java, C++, React, Next.js, Node.js."], style={"color": "white"})),
             html.Li(html.Div([html.B("Data & Storage: "), "Postgres, Supabase, DynamoDB, MongoDB, Redis, Data Modeling, Database Migrations"], style={"color": "white"})),
-            html.Li(html.Div([html.B("Cloud & DevOps: "), "AWS, Docker, Kubernetes, Terraform, GitHub Actions, RabbitMQ, JFrog Artifactory"], style={"color": "white"})),
+            html.Li(html.Div([html.B("Cloud & DevOps: "), "AWS, Docker, Kubernetes, Terraform, GitHub Actions, Jenkins, RabbitMQ, JFrog Artifactory"], style={"color": "white"})),
             html.Li(html.Div([html.B("Quality & Collaboration: "), "Unit & Integration Testing, Automated Testing, Production Monitoring, Incident Response, On-call Support"], style={"color": "white"})),
             html.Li(html.Div([html.B("Algorithms & CS Fundamentals: "), "Data Structures (Arrays, Hash Maps, Trees, Graphs, Heap, Stack), Algorithms (Two Pointers, BFS/DFS, Sorting, Dynamic Programming, Greedy, Caching Strategies), Time & Space Complexity Analysis"], style={"color": "white"})),
         ]))
