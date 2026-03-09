@@ -13,8 +13,7 @@ rp1_desc = ["Poster Presentation in 2023 Consortium for Computing Sciences in Co
 
 # Research Publication 2
 rp2_date = "May 2022 - May 2023"
-rp2_desc = ["Poster Presentation in 2023 IEEE High Performance Extreme Computing Virtual Conference (HPEC)",
-            "Poster Presentation in 2023 Consortium for Computing Sciences in Colleges Northeastern Conference (CCSCNE)",
+rp2_desc = ["Poster Presentation in 2023 Consortium for Computing Sciences in Colleges Northeastern Conference (CCSCNE)",
             "Designed, developed, and integrated an open-source, multi-channel, multi-engine sentiment analysis software for social media and digital reputation management purposes",
             "Conducted a case study focusing on three major information technology companies: Google, Amazon, and Microsoft, to explore how social media content about major information technology companies vary depending on various factors including geo-political, socio-economic, and environmental awareness.",
             "Video Demonstration"]
@@ -61,9 +60,8 @@ layout = dbc.Container([
             html.Ul([
                 html.Li(
                     html.Div(
-                        html.A(desc, href="https://ieee-hpec.org/wp-content/uploads/2023/09/40.pdf", style={"color": "white"}) if i == 0
-                        else html.A(desc, href="https://ccscne.org/2023/CCSCNE%202023%20Student%20Posters.pdf", style={"color": "white"}) if i == 1
-                        else html.A(desc, href="https://vimeo.com/815209925?share=copy", style={"color": "white"}) if i == 4
+                        html.A(desc, href="https://ccscne.org/2023/CCSCNE%202023%20Student%20Posters.pdf", style={"color": "white"}) if i == 0
+                        else html.A(desc, href="https://vimeo.com/815209925?share=copy", style={"color": "white"}) if i == 3
                         else desc, style={"color": "white"})
                 ) for i, desc in enumerate(rp2_desc)]),
             ], className='experience-section')

@@ -7,51 +7,49 @@ dash.register_page(__name__, "/", title="Meet Me")
 # Job Experience 1
 job1_date = "May 2021 - Aug 2021"
 job1_description = [
-    "Worked with 5 engineers as part of the team to build 2 Mega-Watt hydrogen generators",
-    "Integrated a centralized remote monitoring solution for hydrogen generators resulting in an 30% decrease in troubleshooting time",
-    "Developed a dashboard in Grafana using complex SQL queries to organize and display collected data to stakeholders including customers, engineers, and sales personnel increasing their performance by 27%",
-    "Tested software and verified results after configuration in collaboration with the principal electrical engineer"
+    "Worked with 5 engineers as part of the team to build 2 Mega-Watt hydrogen generators.",
+    "Integrated a centralized remote monitoring solution for hydrogen generators resulting in an 30% decrease in troubleshooting time.",
+    "Developed a dashboard in Grafana using complex SQL queries to organize and display collected data to stakeholders including customers, engineers, and sales personnel increasing their performance by 27%.",
+    "Tested software and verified results after configuration in collaboration with the principal electrical engineer."
 ]
 
 # Job Experience 2
 job2_date = "Jun 2022 - Aug 2022"
 job2_description = [
-    "Refactored and optimized source code, achieving a 15% decrease in POS startup time, directly enhancing crew experience and operational efficiency",
-    "Documented a detailed function map encompassing all startup calls, streamlining future debugging and feature development, and reducing onboarding time for new developers by 20%",
-    "Utilized ReSharper dotTrace to profile and analyze the POS startup process, identifying and resolving critical bottlenecks",
-    "Worked in an Agile environment with a team of 5 software engineers on the Point-of-Sale (POS)",
-    "Wrote test scripts as part of Test-Driven Development using OpenTest"
+    "Reduced Point-of-Sale startup time by ~15% by identifying algorithmic and I/O bottlenecks in backend initialization flows and optimizing critical execution paths.",
+    "Decreased new-engineer onboarding time by 20% by documenting backend architecture and operational workflows.",
+    "Utilized ReSharper dotTrace to profile and analyze the POS startup process, identifying and resolving critical bottlenecks.",
+    "Worked in an Agile environment with a team of 5 software engineers on the Point-of-Sale (POS).",
 ]
 
 # Job Experience 3
 job3_date = "July 2020 - Jan 2021"
 job3_description = [
-    "Developed the website for NLSM, a sports consulting agency, using WordPress and CSS",
-    "Designed mobile and desktop responsive web interfaces that allowed over 30 players to join our program",
-    "Managed development projects for multiple teams of the startup including web development, operations, & marketing resulting in a 10% increase in revenue"
+    "Increased quarterly platform revenue by 10% as measured by transaction volume, by integrating scheduling and payment systems and coordinating cross-functional development."  
+    "Reduced athlete onboarding time by 40% as measured by registration completion, by developing and deploying a responsive web application."
 ]
 
 # Job Experience 4
 job4_date = "June 2023 - June 2025"
 job4_description = [
-    "Decoupled a centralized logging component from a legacy monolithic .NET application and re-architected it as a standalone, production-grade microservice.",
-    "Implemented a high-throughput asynchronous logging pipeline using batching, retry strategies, and non-blocking I/O, reducing request latency by 25–30% while handling sustained high write volume.",
-    "Designed and automated a fault-tolerant failover mechanism for critical backend services, reducing customer-visible downtime by 10% and improving service availability.",
-    "Automated testing and debugging workflows by building an internal developer tool, reducing development iteration time by 20% and improving microservice reliability.",
-    "Refactored and increased code coverage in legacy C/C++ code by 35%, reducing regressions and improving release confidence.",
-    "Served as a mentor for 2 new incoming engineers, providing guidance on technical skills, onboarding processes, and project best practices to help them integrate into the team effectively.",
+    "Improved scalability and fault isolation by decoupling a centralized logging component from a monolithic application and re-architecting it as a standalone production microservice.",  
+    "Reduced request latency by 25–30% under sustained high write volume by building a high-throughput asynchronous logging pipeline using batching, non-blocking I/O, and retry strategies.",  
+    "Decreased development iteration time by 20% by building internal tooling to automate testing and debugging workflows, improving overall service reliability.",
+    "Reduced customer-visible downtime by 10% by designing and automating a fault-tolerant failover mechanism for critical backend services.",
+    "Increased unit and integration test coverage by 35% by integrating comprehensive test execution into the CI pipeline, improving release stability and developer confidence."
 ]
 
 job5_date = "June 2025 - Present"
 job5_description = [
-    "Led backend architecture for a multi-store device management platform, enabling concurrent configuration updates across thousands of stores and reducing market-level workflows from hours to minutes.",
-    "Designed and developed an event-driven backend using RabbitMQ, applying idempotent consumers and retry/backoff strategies to orchestrate asynchronous workflows across multiple microservices with 99.9% processing reliability.",
-    "Implemented parallel execution to process dozens of stores simultaneously, reducing end-to-end latency by 70–85% compared to the prior sequential workflow.",
-    "Re-architected a core backend feature, reducing execution time from ~3 hours with heavy IT support to under 2 minutes with zero IT involvement.",
-    "Performed deep production incident triage and root-cause analysis across AWS-hosted microservices, using Kubernetes CPU and memory metrics to identify over-provisioned pods and right-size resource requests, improving service stability and overall cluster efficiency.",
-    "Collaborated with cross-functional engineering teams to align backend designs, rollout strategies, and operational requirements across dependent services.",
-    "Mentored two junior engineers, providing guidance on backend architecture, concurrency, and production-ready coding practices.",
-    "Authored architecture diagrams and technical design documents detailing data flow, failure modes, and recovery strategies for distributed systems."
+    "Enabled concurrent device configuration updates across 1000+ stores, reducing market-level workflows from hours to minutes, by architecting a distributed backend platform with parallel execution and fault-tolerant coordination.",
+    "Achieved 99.9% message processing reliability by designing and developing an event-driven microservices system using RabbitMQ, with idempotent consumers and retry/backoff strategies to handle partial failures.",
+    "Reduced end-to-end processing latency by 70–85% by introducing workload partitioning and concurrency-safe execution, replacing a previously sequential system.",
+    "Cut execution time of a critical backend workflow from ~3 hours to under 2 minutes, eliminating manual IT involvement, by re-architecting the system into a fully automated, self-service pipeline.",
+    "Improved system stability and infrastructure efficiency by performing production incident triage and root-cause analysis in AWS, analyzing Kubernetes CPU, memory, and throughput metrics to identify bottlenecks and right-size resources.",
+    "Reduced AWS infrastructure costs by 40% by eliminating redundant SQS and Lambda resources and consolidating message processing onto an existing RabbitMQ consumer."
+    "Led architectural design discussions and reviews for distributed services, authoring technical design documents that detailed data flow, failure modes, and recovery strategies, improving on-call effectiveness and reducing time to recovery during incidents.",
+    "Collaborated with product managers, designers, and engineers to align backend designs, rollout strategies, and operational requirements across dependent services, enabling smoother releases and decreasing integration issues.",
+    "Mentored two junior engineers through code reviews, design discussions, and production-readiness best practices, supporting their technical growth and onboarding."
 ]
 
 
