@@ -41,12 +41,12 @@ job4_description = [
 
 job5_date = "June 2025 - Present"
 job5_description = [
-    "Enabled concurrent device configuration updates across 1000+ stores, reducing market-level workflows from hours to minutes, by architecting a distributed backend platform with parallel execution and fault-tolerant coordination.",
+    "Enabled concurrent device configuration updates across 30,000 stores, reducing market-level workflows from hours to minutes, by architecting a distributed backend platform with parallel execution and fault-tolerant coordination.",
     "Achieved 99.9% message processing reliability by designing and developing an event-driven microservices system using RabbitMQ, with idempotent consumers and retry/backoff strategies to handle partial failures.",
     "Reduced end-to-end processing latency by 70–85% by introducing workload partitioning and concurrency-safe execution, replacing a previously sequential system.",
     "Cut execution time of a critical backend workflow from ~3 hours to under 2 minutes, eliminating manual IT involvement, by re-architecting the system into a fully automated, self-service pipeline.",
     "Improved system stability and infrastructure efficiency by performing production incident triage and root-cause analysis in AWS, analyzing Kubernetes CPU, memory, and throughput metrics to identify bottlenecks and right-size resources.",
-    "Reduced AWS infrastructure costs by 40% by eliminating redundant SQS and Lambda resources and consolidating message processing onto an existing RabbitMQ consumer."
+    "Reduced AWS infrastructure footprint by eliminating redundant SQS and Lambda resources across 12 environments, consolidating message processing onto an existing RabbitMQ consumer and simplifying operational overhead.",
     "Led architectural design discussions and reviews for distributed services, authoring technical design documents that detailed data flow, failure modes, and recovery strategies, improving on-call effectiveness and reducing time to recovery during incidents.",
     "Collaborated with product managers, designers, and engineers to align backend designs, rollout strategies, and operational requirements across dependent services, enabling smoother releases and decreasing integration issues.",
     "Mentored two junior engineers through code reviews, design discussions, and production-readiness best practices, supporting their technical growth and onboarding."
@@ -93,7 +93,7 @@ layout = dbc.Container([
             html.Li(html.Div([html.B("Backend & Systems: "), ".NET, RESTful APIs, Microservices, Distributed Systems, Asynchronous Processing, Event-Driven Architecture, Messaging Systems"], style={"color": "white"})),
             html.Li(html.Div([html.B("Programming Languages & Framework: "), "C#, Python, Go, TypeScript, JavaScript, SQL, Java, C++, React, Next.js, Node.js."], style={"color": "white"})),
             html.Li(html.Div([html.B("Data & Storage: "), "Postgres, Supabase, DynamoDB, MongoDB, Redis, Data Modeling, Database Migrations"], style={"color": "white"})),
-            html.Li(html.Div([html.B("Cloud & DevOps: "), "AWS, Docker, Kubernetes, Terraform, GitHub Actions, Jenkins, RabbitMQ, JFrog Artifactory"], style={"color": "white"})),
+            html.Li(html.Div([html.B("Cloud & DevOps: "), "AWS, Docker, Kubernetes, Terraform Helm, GitHub Actions, Jenkins, RabbitMQ, JFrog Artifactory"], style={"color": "white"})),
             html.Li(html.Div([html.B("Quality & Collaboration: "), "Unit & Integration Testing, Automated Testing, Production Monitoring, Incident Response, On-call Support"], style={"color": "white"})),
             html.Li(html.Div([html.B("Algorithms & CS Fundamentals: "), "Data Structures (Arrays, Hash Maps, Trees, Graphs, Heap, Stack), Algorithms (Two Pointers, BFS/DFS, Sorting, Dynamic Programming, Greedy, Caching Strategies), Time & Space Complexity Analysis"], style={"color": "white"})),
         ]))
