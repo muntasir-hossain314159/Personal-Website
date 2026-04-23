@@ -25,8 +25,9 @@ job2_description = [
 # Job Experience 3
 job3_date = "July 2020 - Jan 2021"
 job3_description = [
-    "Increased quarterly platform revenue by 10% as measured by transaction volume, by integrating scheduling and payment systems and coordinating cross-functional development."  
-    "Reduced athlete onboarding time by 40% as measured by registration completion, by developing and deploying a responsive web application."
+    "Built a full-stack web application supporting scheduling and payments, improving athlete onboarding time by 40% and increasing platform revenue by 10%.",
+    "Designed and implemented backend services and APIs to support user-facing features, ensuring reliable and scalable end-to-end functionality.",
+    "Collaborated with stakeholders to deliver product features from concept to launch, aligning technical solutions with business goals."
 ]
 
 # Job Experience 4
@@ -41,14 +42,18 @@ job4_description = [
 
 job5_date = "June 2025 - Present"
 job5_description = [
-    "Enabled concurrent device configuration updates across 30,000 stores, reducing market-level workflows from hours to minutes, by architecting a distributed backend platform with parallel execution and fault-tolerant coordination.",
-    "Achieved 99.9% message processing reliability by designing and developing an event-driven microservices system using RabbitMQ, with idempotent consumers and retry/backoff strategies to handle partial failures.",
-    "Reduced end-to-end processing latency by 70–85% by introducing workload partitioning and concurrency-safe execution, replacing a previously sequential system.",
-    "Cut execution time of a critical backend workflow from ~3 hours to under 2 minutes, eliminating manual IT involvement, by re-architecting the system into a fully automated, self-service pipeline.",
+    "Enabled concurrent device configuration updates across 30,000 stores, reducing market-level workflows from hours to minutes, by architecting a distributed backend system with parallel execution and fault-tolerant coordination.",
+    "Reduced end-to-end processing latency by 70–85% by introducing workload partitioning, concurrency-safe execution, and distributed caching via ElastiCache; directly improving system responsiveness for downstream applications and users.",
+    "Achieved 99.9% message processing reliability by designing and developing event-driven microservices system using RabbitMQ, with transactional outbox pattern, idempotent consumers and retry/backoff strategies to handle failures.",
+    "Reduced peak Postgres connection load by 60% across 8 dependent services by integrating PgBouncer as a connection pooler, improving query throughput stability under sustained concurrent traffic.",
+    "Optimized high-throughput read services by conducting historical index usage analysis using pg_stat_user_indexes, eliminating 30%+ unused indexes and reducing write amplification and storage overhead.",
+    "Improved system observability coverage from ~85% to 99% by debugging New Relic and OpenTelemetry instrumentation failures, ensuring consistent metric, trace, and log ingestion and reducing mean-time-to-detect (MTTD) by ~40%.",
     "Improved system stability and infrastructure efficiency by performing production incident triage and root-cause analysis in AWS, analyzing Kubernetes CPU, memory, and throughput metrics to identify bottlenecks and right-size resources.",
     "Reduced AWS infrastructure footprint by eliminating redundant SQS and Lambda resources across 12 environments, consolidating message processing onto an existing RabbitMQ consumer and simplifying operational overhead.",
+    "Identified a gap in developer tooling and independently built and deployed an MCP server exposing 11 microservice capabilities as agent-consumable tools, reducing manual testing overhead by 40% and establishing a new pattern for AI-assisted development workflows on the team.",
+    "Improved frontend application stability and user experience by diagnosing and resolving cache invalidation issues in Akita store, preventing stale data across UI components and ensuring consistency between backend and client state.",
+    "Collaborated with product and engineering teams to instrument backend services for phased rollouts and A/B testing, enabling data-driven release decisions and reducing risk of performance regressions at scale.",
     "Led architectural design discussions and reviews for distributed services, authoring technical design documents that detailed data flow, failure modes, and recovery strategies, improving on-call effectiveness and reducing time to recovery during incidents.",
-    "Collaborated with product managers, designers, and engineers to align backend designs, rollout strategies, and operational requirements across dependent services, enabling smoother releases and decreasing integration issues.",
     "Mentored two junior engineers through code reviews, design discussions, and production-readiness best practices, supporting their technical growth and onboarding."
 ]
 
